@@ -8,7 +8,7 @@ if _G.NoBugs == true then
 	end
 	Partz              = Instance.new("Part")
 	Partz.Parent       = workspace
-	Partz.Transparency = 1
+	Partz.Transparency = 0
 	Partz.CanCollide   = false
 	Partz.Massless     = true
 	Partz.Position     = game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,9,0)
